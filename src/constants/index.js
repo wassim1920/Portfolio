@@ -5,11 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
@@ -21,7 +17,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   ec,
   RS,
 } from "../assets";
@@ -74,10 +69,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "figma",
     icon: figma,
   },
@@ -88,22 +79,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",

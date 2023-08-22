@@ -11,14 +11,14 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const handleDownload = () => {
-    // Replace the URL with your Google Drive link
-    const cvUrl = 'https://drive.google.com/uc?export=download&id=15_eAX7cjrDJcOCl4JNZCz_DY-6fIFDzh';
+    const cvUrl =
+      "https://drive.google.com/uc?export=download&id=15_eAX7cjrDJcOCl4JNZCz_DY-6fIFDzh";
 
     // Create a virtual anchor element
-    const anchor = document.createElement('a');
+    const anchor = document.createElement("a");
     anchor.href = cvUrl;
-    anchor.target = '_blank';
-    anchor.download = 'your-cv-file-name.pdf'; // Customize the file name
+    anchor.target = "_blank";
+    anchor.download = "wassim_Hssin.pdf"; // Customize the file name
     anchor.click();
   };
 
@@ -45,30 +45,29 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
+          to="/"
+          className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Wassim &nbsp;
-            <span className='sm:block hidden'> | Web Devoloper</span>
+            <span className="sm:block hidden"> | Web Devoloper</span>
           </p>
-          
+
           <div className="divbtn">
-          
-          <button className="cvbtn" onClick={handleDownload}>download CV</button>
-       
-        </div>
-        
+            <button className="cvbtn" onClick={handleDownload}>
+              download CV
+            </button>
+          </div>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -82,11 +81,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
@@ -95,7 +94,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

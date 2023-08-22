@@ -131,10 +131,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "October 2021 - January 2022",
     points: [
-     
-"Performing network maintenance activities, including firmware updates and security patches.",
-"Assisting in the design and implementation of local area networks (LAN) and wide area networks (WAN)."
-
+      "Performing network maintenance activities, including firmware updates and security patches.",
+      "Assisting in the design and implementation of local area networks (LAN) and wide area networks (WAN).",
     ],
   },
   {
@@ -144,9 +142,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2021 - January 2022",
     points: [
-"Performing network maintenance activities, including firmware updates and security patches.",
-"Assisting in the design and implementation of local area networks (LAN) and wide area networks (WAN)."
-
+      "Performing network maintenance activities, including firmware updates and security patches.",
+      "Assisting in the design and implementation of local area networks (LAN) and wide area networks (WAN).",
     ],
   },
   // {
@@ -195,7 +192,7 @@ const projects = [
   {
     name: "Booking",
     description:
-    "hotel booking web app .seamlessly connects travelers with their ideal accommodationsWith a user-friendly interface, real-time availability updates.",
+      "hotel booking web app .seamlessly connects travelers with their ideal accommodationsWith a user-friendly interface, real-time availability updates.",
     tags: [
       {
         name: "nodeJS",
@@ -245,7 +242,7 @@ const projects = [
   {
     name: "Public Transportation",
     description:
-        " public transportation App. Access real-time schedules, route information, and service updates, ensuring a smooth and convenient travel experience for commuters  ",
+      " public transportation App. Access real-time schedules, route information, and service updates, ensuring a smooth and convenient travel experience for commuters  ",
     tags: [
       {
         name: "python",
@@ -261,12 +258,13 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/wassim1920/Public_TransportationApi.git",
+    source_code_link:
+      "https://github.com/wassim1920/Public_TransportationApi.git",
   },
   {
     name: "HooBank",
     description:
-        " public transportation App. Access real-time schedules, route information, and service updates, ensuring a smooth and convenient travel experience for commuters  ",
+      " public transportation App. Access real-time schedules, route information, and service updates, ensuring a smooth and convenient travel experience for commuters  ",
     tags: [
       {
         name: "reactjs",
@@ -287,7 +285,7 @@ const projects = [
   {
     name: "shoppy",
     description:
-        "  E-commerce Admin Dashboard app. manage products, orders, and customer interactions through a user-friendly interface.  ",
+      "  E-commerce Admin Dashboard app. manage products, orders, and customer interactions through a user-friendly interface.  ",
     tags: [
       {
         name: "nodeJs",
@@ -308,7 +306,7 @@ const projects = [
   {
     name: "Real Estate",
     description:
-    "Real Estate app. Explore a diverse range of listings, from homes to commercial spaces, all in one place. detailed property information, interactive maps, and contact options. feature-rich app.",
+      "Real Estate app. Explore a diverse range of listings, from homes to commercial spaces, all in one place. detailed property information, interactive maps, and contact options. feature-rich app.",
     tags: [
       {
         name: "nodeJs",

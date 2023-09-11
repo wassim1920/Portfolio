@@ -1,5 +1,6 @@
 import { styles } from "../styles";
 import "./Hero.css"
+import w from "../assets/w.png"
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
           </p>
         </div>
         <dir className = "portfolio-item">
-        <img src = "https://scontent.ftun2-2.fna.fbcdn.net/v/t39.30808-6/288854865_3257475611165990_3217949761215482979_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=YVkmC5V-KTwAX_Jg2JO&_nc_ht=scontent.ftun2-2.fna&oh=00_AfCRnGsjdoh_8VtxpzlJXeFZG5Px5wdIUCATqRPDqMvlZQ&oe=64E9B7ED" 
+        <img src = {w} 
              alt="Portfolio Item" />
         </dir>
       </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const handleDownload = () => {
     const cvUrl =
-      "https://drive.google.com/uc?export=download&id=15_eAX7cjrDJcOCl4JNZCz_DY-6fIFDzh";
+      "https://drive.google.com/file/d/10OvdR1u4X5agT6_fNi7wIGEI8idvL4qa/view?usp=drive_link";
 
     // Create a virtual anchor element
     const anchor = document.createElement("a");
